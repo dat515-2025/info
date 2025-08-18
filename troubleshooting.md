@@ -79,27 +79,27 @@ But for that to work, you need to [configure it properly](https://docs.github.co
 
    ```console
    $ git remote -v
-   course-assignments  https://github.com/COURSE_TAG/assignments.git (fetch)
-   course-assignments  https://github.com/COURSE_TAG/assignments.git (push)
-   origin  https://github.com/COURSE_TAG/YOUR_USERNAME-labs.git (fetch)
-   origin  https://github.com/COURSE_TAG/YOUR_USERNAME-labs.git (push)
+   course-assignments  https://github.com/dat515-2025/assignments.git (fetch)
+   course-assignments  https://github.com/dat515-2025/assignments.git (push)
+   origin  https://github.com/dat515-2025/YOUR_USERNAME-labs.git (fetch)
+   origin  https://github.com/dat515-2025/YOUR_USERNAME-labs.git (push)
    ```
 
    If this is the case, change the remote's URL to use ssh by running (remember to replace YOUR_USERNAME with your own):
 
    ```console
-   git remote set-url course-assignments git@github.com:COURSE_TAG/assignments.git
-   git remote set-url origin git@github.com:COURSE_TAG/YOUR_USERNAME-labs.git
+   git remote set-url course-assignments git@github.com:dat515-2025/assignments.git
+   git remote set-url origin git@github.com:dat515-2025/YOUR_USERNAME-labs.git
    ```
 
    The new remote's URL should be like this:
 
    ```console
    $ git remote -v
-   course-assignments  git@github.com:COURSE_TAG/assignments.git (fetch)
-   course-assignments  git@github.com:COURSE_TAG/assignments.git (push)
-   origin  git@github.com:COURSE_TAG/YOUR_USERNAME-labs.git (fetch)
-   origin  git@github.com:COURSE_TAG/YOUR_USERNAME-labs.git (push)
+   course-assignments  git@github.com:dat515-2025/assignments.git (fetch)
+   course-assignments  git@github.com:dat515-2025/assignments.git (push)
+   origin  git@github.com:dat515-2025/YOUR_USERNAME-labs.git (fetch)
+   origin  git@github.com:dat515-2025/YOUR_USERNAME-labs.git (push)
    ```
 
 3. Multiple ssh clients or conflicting git configurations
@@ -141,7 +141,7 @@ But for that to work, you need to [configure it properly](https://docs.github.co
    To edit your local configuration (applies only to the current `assignments` repository):
 
    ```console
-   $ cd COURSE_TAG/assignments
+   $ cd dat515-2025/assignments
    $ git config --edit
    ...
    [core]
@@ -159,7 +159,7 @@ But for that to work, you need to [configure it properly](https://docs.github.co
    remote: Compressing objects: 100% (34/34), done.
    remote: Total 36 (delta 2), reused 36 (delta 2), pack-reused 0
    Unpacking objects: 100% (36/36), 1.58 MiB | 3.96 MiB/s, done.
-   From https://github.com/COURSE_TAG/assignments
+   From https://github.com/dat515-2025/assignments
    * branch            main       -> FETCH_HEAD
    * [new branch]      main       -> course-assignments/main
 

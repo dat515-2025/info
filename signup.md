@@ -58,15 +58,15 @@ Here are two short videos describing these steps: [Part 1](https://youtu.be/3KJm
 
    However, should this fail, you can accept the invitations manually.
 
-   - Navigate to the course organization [COURSE_TAG](https://github.com/COURSE_TAG) accept the invitation.
-   - Navigate to the [assignments](https://github.com/COURSE_TAG/assignments) repository and accept the invitation.
-   - Navigate to your private <https://github.com/COURSE_TAG/username-labs> repository and accept the invitation.
+   - Navigate to the course organization [dat515-2025](https://github.com/dat515-2025) accept the invitation.
+   - Navigate to the [assignments](https://github.com/dat515-2025/assignments) repository and accept the invitation.
+   - Navigate to your private <https://github.com/dat515-2025/username-labs> repository and accept the invitation.
      Remember to replace `username` in this link with your own GitHub `username`.
 
    Several invitation emails will also be sent to the email address associated with your GitHub account.
    However, emails from GitHub can sometimes take a while to arrive.
 
-5. Once you have accepted the invitations, you will get your own repository under `COURSE_TAG`, which is the course's organization on GitHub.
+5. Once you have accepted the invitations, you will get your own repository under `dat515-2025`, which is the course's organization on GitHub.
 
 ## Group Signup on QuickFeed
 
@@ -101,7 +101,7 @@ Here are two short videos describing these steps: [Part 1](https://youtu.be/3KJm
    A Discord account is required to sign in to communicate with the teaching staff during lab hours.
    You can skip this step if you already have an account.
 
-2. To join the [COURSE_TAG Discord server](https://discord.gg/tb5FfjEasB).
+2. To join the [dat515-2025 Discord server](https://discord.gg/tb5FfjEasB).
 
 3. Once connected to the server, please register with our bot, `@dat515-helpbot`, by sending it a direct message or by sending the command in the `#general` channel:
 
@@ -112,6 +112,6 @@ Here are two short videos describing these steps: [Part 1](https://youtu.be/3KJm
    Registration requires that you provide your GitHub `username` and select the `Cloud Computing` course.
 
    Note that to register with the bot, you must previously have registered with QuickFeed with the same GitHub `username`.
-   Hence, please make sure that you have joined the [`COURSE_TAG`](https://github.com/COURSE_TAG) GitHub organization and registered with QuickFeed first.
+   Hence, please make sure that you have joined the [`dat515-2025`](https://github.com/dat515-2025) GitHub organization and registered with QuickFeed first.
 
    If you need help with registering on the server, send a message in the `#help` channel.
