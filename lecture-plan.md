@@ -21,6 +21,6 @@
 <!-- - How ABB Robotics Uses Cloud Resources for DevOps and Testing, Speakers: Morten Mossige, ABB Robotics and UiS. -->
 
 [1]: https://factiverse.ai
-[course-info]: https://dat520-2025.github.io/info/slides/0-course-info.pdf
-[cloud-intro]: https://dat520-2025.github.io/info/slides/1-cloud-intro.pdf
-[go-intro]: https://dat520-2025.github.io/info/slides/2-go-intro.pdf
+[course-info]: https://dat515-2025.github.io/info/slides/0-course-info.pdf
+[cloud-intro]: https://dat515-2025.github.io/info/slides/1-cloud-intro.pdf
+[go-intro]: https://dat515-2025.github.io/info/slides/2-go-intro.pdf
