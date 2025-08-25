@@ -25,3 +25,4 @@
 [cloud-intro]: https://dat515-2025.github.io/info/slides/1-cloud-intro.pdf
 [go-intro]: https://dat515-2025.github.io/info/slides/2-go-intro.pdf
 [go-recording]: https://www.dropbox.com/scl/fi/icihqwgq2btm9ytmi6dvd/Screen-Recording-2025-08-20-at-09.26.11.mov?rlkey=8by8ucnse723pn8it2n690z34&dl=0
+[cloud-apis]: https://dat515-2025.github.io/info/slides/3-cloud-apis.pdf
