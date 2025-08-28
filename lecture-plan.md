@@ -1,19 +1,22 @@
 # Lecture Plan
 
-| Week | Date   | Day       | Lecture Topic                         | Slides                      | Notes                                 |
-| ---- | ------ | --------- | ------------------------------------- | --------------------------- | ------------------------------------- |
-| 34   | Aug 18 | Monday    | Introduction to Cloud Computing       | [course-info] [cloud-intro] | Lecturer: Hein                        |
-| 34   | Aug 20 | Wednesday | Introduction to Go Programming        | [go-intro] [go-recording]   | Lecturer: Hein                        |
-| 35   | Aug 25 | Monday    | Cloud APIs and Microservices Concepts | [cloud-apis]                | Lecturer: Hein                        |
-| 35   | Aug 27 | Wednesday | DevOps: Best Practices                | [devops]                    | Lecturer: Hein                        |
-| 36   | Sep 1  | Monday    | Virtualization and Containers         | [virtualization-containers] | Lecturer: Hein                        |
-| 36   | Sep 3  | Wednesday | Docker                                | [docker]                    | Lecturer: Hein                        |
-| 36   | Sep 4  | Thursday  | Serverless Computing                  | [serverless]                | Lecturer: Hein                        |
-| 37   | Sep 8  | Monday    | Kubernetes: Container Orchestration   | [kubernetes]                | Lecturer: Jayachander, Hein Traveling |
-| 37   | Sep 10 | Wednesday | Talos Lab Intro                       | [talos-intro]               | Lecturer: Jayachander, Hein Traveling |
-| 38   | Sep 15 | Monday    | Guest Lectures: TBD                   |                             | Hein Traveling                        |
-| 38   | Sep 17 | Wednesday | No Lecture                            |                             | Hein Traveling                        |
-| 38   | Sep 18 | Thursday  | Guest Lectures: Factiverse            | [factiverse]                | Hein Traveling                        |
+| Week | Date   | Day       | Lecture Topic                         | Lecturer     | Slides                      |
+| ---- | ------ | --------- | ------------------------------------- | ------------ | --------------------------- |
+| 34   | Aug 18 | Monday    | Introduction to Cloud Computing       | Hein         | [course-info] [cloud-intro] |
+| 34   | Aug 20 | Wednesday | Introduction to Go Programming        | Hein         | [go-intro] [go-recording]   |
+| 35   | Aug 25 | Monday    | Cloud APIs and Microservices Concepts | Hein         | [cloud-apis]                |
+| 35   | Aug 27 | Wednesday | DevOps: Best Practices                | Hein         | [devops]                    |
+| 36   | Sep 1  | Monday    | Virtualization and Containers         | Hein         | [virtualization-containers] |
+| 36   | Sep 3  | Wednesday | Docker                                | Hein         | [docker]                    |
+| 36   | Sep 4  | Thursday  | Serverless Computing                  | Hein         | [serverless]                |
+| 37   | Sep 8  | Monday    | Kubernetes: Container Orchestration   | Jayachander¹ | [kubernetes]                |
+| 37   | Sep 10 | Wednesday | Talos Lab Intro                       | Jayachander¹ | [talos-intro]               |
+| 38   | Sep 15 | Monday    | No Lecture: Lab support²              | Jayachander¹ |                             |
+| 38   | Sep 17 | Wednesday | No Lecture: Lab support²              | Jayachander¹ |                             |
+| 38   | Sep 18 | Thursday  | Guest Lectures: Factiverse            | Vinay Setty¹ | [factiverse]                |
+
+1. *Hein traveling during this period.*
+2. *Lectures are replaced with lab support, but only Jayachander will be present.*
 
 ## Guest Lectures
 
