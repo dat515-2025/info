@@ -12,8 +12,7 @@
 | 37   | Sep 8  | Monday    | Kubernetes: Container Orchestration   | Jayachander¹ | [kubernetes]                |
 | 37   | Sep 10 | Wednesday | Talos Lab Intro                       | Jayachander¹ | [talos-intro]               |
 | 38   | Sep 15 | Monday    | No Lecture: Lab support²              | Jayachander¹ |                             |
-| 38   | Sep 17 | Wednesday | No Lecture: Lab support²              | Jayachander¹ |                             |
-| 38   | Sep 18 | Thursday  | Guest Lectures: Factiverse            | Vinay Setty¹ | [factiverse]                |
+| 38   | Sep 17 | Wednesday | Guest Lectures: Factiverse            | Vinay Setty¹ | [factiverse]                |
 
 1. *Hein traveling during this period.*
 2. *Lectures are replaced with lab support, but only Jayachander will be present.*
@@ -21,7 +20,6 @@
 ## Guest Lectures
 
 - How Factiverse Uses Cloud Computing for AI Training/Inference and Web Hosting, Vinay Setty, [Factiverse][1] and UiS.
-<!-- - How ABB Robotics Uses Cloud Resources for DevOps and Testing, Speakers: Morten Mossige, ABB Robotics and UiS. -->
 
 [1]: https://factiverse.ai
 [course-info]: https://dat515-2025.github.io/info/slides/0-course-info.pdf
