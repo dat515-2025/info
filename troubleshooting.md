@@ -148,7 +148,9 @@ But for that to work, you need to [configure it properly](https://docs.github.co
       sshCommand = /usr/bin/ssh
    ```
 
-4. Unrelated histories when merging
+## Git and Repository Issues
+
+1. Unrelated histories when merging
 
    If you get an fatal error like the one bellow when doing a merge/pull:
 
@@ -179,3 +181,66 @@ But for that to work, you need to [configure it properly](https://docs.github.co
    ```console
    git pull course-assignments main --allow-unrelated-histories
    ```
+
+   If you need help fixing a broken repository, please contact the teaching staff on Discord or during lab hours.
+
+2. Backup your work and reset your repository
+
+   If you find yourself in a situation where your repository is in a broken state (for example, you committed files before merging the assignment skeleton), you can use git reset to return to a clean state.
+   If you need help fixing a broken repository, please contact the teaching staff on Discord or during lab hours.
+
+   The table below shows how different `git reset` modes affect your repository.
+   It compares what happens to the __commit history__, the __staging area__ (index), and the __working directory__ (your actual files).
+
+   | Reset Mode            | Commit History           | Staging Area (index)   | Working Directory  | Typical Use Case                                       |
+   | --------------------- | ------------------------ | ---------------------- | ------------------ | ------------------------------------------------------ |
+   | `--soft`              | ✅ reset to target commit | ✅ keeps staged changes | ✅ keeps file edits | “Uncommit” but keep everything staged for a new commit |
+   | `--mixed` _(default)_ | ✅ reset to target commit | ❌ unstages changes     | ✅ keeps file edits | Start fresh with staging; edits remain in files        |
+   | `--hard`              | ✅ reset to target commit | ❌ clears staging       | ❌ discards edits   | Completely throw away commits and changes              |
+
+   ✅ = preserved  ❌ = discarded/cleared
+
+   > ⚠️ __Warning:__ `git reset --hard` will permanently delete uncommitted work.
+   > Always make a backup copy before using it.
+
+   __Step 1.__ Make a backup
+
+   Always copy your work to a safe location before resetting.
+   Some reset operations can permanently discard commits.
+
+   __Step 2.__ Choose a reset mode (see also the table above)
+
+   git reset has several modes. The most useful are explained in more detail below:
+
+   - Soft reset (--soft)
+   - Moves the branch pointer back to the specified commit.
+   - Keeps your changes staged in the index.
+   - Useful if you just want to “uncommit” but keep all changes ready to recommit.
+   - Example:
+
+   ```sh
+   git reset --soft COMMIT_ID
+   ```
+
+   - Mixed reset (--mixed) (default if you don’t give an option)
+   - Moves the branch pointer back to the specified commit.
+   - Keeps your changes in the working directory but unstaged.
+   - Useful if you want to start over with staging.
+   - Example:
+
+   ```sh
+   git reset COMMIT_ID
+   ```
+
+   - Hard reset (--hard)
+   - Moves the branch pointer back and discards all changes in the index and working directory.
+   - Dangerous: anything not backed up will be lost.
+   - Example:
+
+   ```sh
+   git reset --hard COMMIT_ID
+   ```
+
+   __Step 3.__ Reapply your work
+
+   After resetting, you can copy files from your backup into the repository and commit them again.
