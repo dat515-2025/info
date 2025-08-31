@@ -7,6 +7,7 @@ See the [lab plan](lab-plan.md) for grading and approval requirements.
 Some of the assignments _may_ be automatically approved by QuickFeed when sufficiently many tests pass; these does not require any manual approval.
 
 For assignments that require TA approval, _you must_ present your solution to a member of the teaching staff.
+Each assignment has a defined **passing threshold**, which must be met for the lab to be approved.
 For group assignments, each group member must **individually** present and explain their work to a TA for approval.
 This should be done during lab hours.
 Approval can take place in-person or remotely via Discord.
@@ -22,8 +23,6 @@ Do not send messages directly to the teaching staff on Discord; use the approval
 
 It is expected that you can explain your code and show how it works.
 The results from QuickFeed will also be taken into consideration when approving a lab.
-Typically, 90% of the QuickFeed tests should pass for the lab to be approved.
-Some labs may have a lower threshold, which will be communicated in the lab instructions.
 
 Note that, while we prefer that you get approval for each lab on time, it is ok to make arrangements to get approval at a later date, as long as the handin is submitted to GitHub on time.
 Please contact the teaching staff to make arrangements.
@@ -34,7 +33,7 @@ In such cases, you will be granted **one additional attempt** per lab, limited t
 ### Slip Days
 
 We have frequent lab handins in this course and to add some flexibility to your schedule, we have adopted a scheme with _slip days_.
-This means that if you cannot make a handin deadline, you can use up to a total of **15 slip days** throughout the semester without failing the course.
+This means that if you cannot make a handin deadline, you can use up to a total of the course's defined **slip days** throughout the semester without failing the course.
 These slip days can be used for things like illness, resit exams, offshore work, military service or other conflicting deadlines.
 Weekends and holidays **are included** in your slip day budget.
 
