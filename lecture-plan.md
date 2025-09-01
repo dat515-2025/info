@@ -6,7 +6,7 @@
 | 34   | Aug 20 | Wednesday | Introduction to Go Programming        | Hein         | [go-intro] [go-recording]   |
 | 35   | Aug 25 | Monday    | Cloud APIs and Microservices Concepts | Hein         | [cloud-apis]                |
 | 35   | Aug 27 | Wednesday | DevOps: Best Practices                | Hein         | [devops]                    |
-| 36   | Sep 1  | Monday    | Virtualization and Containers         | Hein         | [virtualization-containers] |
+| 36   | Sep 1  | Monday    | Virtualization and Containers         | Hein         | [virtualization]            |
 | 36   | Sep 3  | Wednesday | Docker                                | Hein         | [docker]                    |
 | 36   | Sep 4  | Thursday  | Serverless Computing                  | Hein         | [serverless]                |
 | 37   | Sep 8  | Monday    | Kubernetes: Container Orchestration   | Jayachander¹ | [kubernetes]                |
@@ -28,3 +28,4 @@
 [go-recording]: https://www.dropbox.com/scl/fi/icihqwgq2btm9ytmi6dvd/Screen-Recording-2025-08-20-at-09.26.11.mov?rlkey=8by8ucnse723pn8it2n690z34&dl=0
 [cloud-apis]: https://dat515-2025.github.io/info/slides/3-cloud-apis.pdf
 [devops]: https://dat515-2025.github.io/info/slides/4-devops.pdf
+[virtualization]: https://dat515-2025.github.io/info/slides/5-virtualization.pdf
