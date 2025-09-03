@@ -29,3 +29,4 @@
 [cloud-apis]: https://dat515-2025.github.io/info/slides/3-cloud-apis.pdf
 [devops]: https://dat515-2025.github.io/info/slides/4-devops.pdf
 [virtualization]: https://dat515-2025.github.io/info/slides/5-virtualization.pdf
+[docker]: https://dat515-2025.github.io/info/slides/6-docker.pdf
