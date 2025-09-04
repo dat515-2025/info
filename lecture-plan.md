@@ -9,6 +9,7 @@
 | 36   | Sep 1  | Monday    | Virtualization and Containers         | Hein         | [virtualization]            |
 | 36   | Sep 3  | Wednesday | Docker                                | Hein         | [docker]                    |
 | 36   | Sep 4  | Thursday  | Serverless Computing                  | Hein         | [serverless]                |
+| 36   | Sep 4  | Thursday  | Project Introduction                  | Hein         | [project-intro]             |
 | 37   | Sep 8  | Monday    | Kubernetes: Container Orchestration   | Jayachander¹ | [kubernetes]                |
 | 37   | Sep 10 | Wednesday | Talos Lab Intro                       | Jayachander¹ | [talos-intro]               |
 | 38   | Sep 15 | Monday    | No Lecture: Lab support²              | Jayachander¹ |                             |
@@ -30,3 +31,5 @@
 [devops]: https://dat515-2025.github.io/info/slides/4-devops.pdf
 [virtualization]: https://dat515-2025.github.io/info/slides/5-virtualization.pdf
 [docker]: https://dat515-2025.github.io/info/slides/6-docker.pdf
+[serverless]: https://dat515-2025.github.io/info/slides/7-serverless.pdf
+[project-intro]: https://dat515-2025.github.io/info/slides/8-project-intro.pdf
