@@ -33,3 +33,4 @@
 [docker]: https://dat515-2025.github.io/info/slides/6-docker.pdf
 [serverless]: https://dat515-2025.github.io/info/slides/7-serverless.pdf
 [project-intro]: https://dat515-2025.github.io/info/slides/8-project-intro.pdf
+[kubernetes]: https://dat515-2025.github.io/info/slides/9-kubernetes.pdf
