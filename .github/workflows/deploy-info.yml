@@ -1,0 +1,69 @@
+name: Deploy Info Folder to GitHub Pages Repo
+
+# Generate GitHub Personal Access Token (PAT) in the GH_TOKEN secret for each year repo.
+
+## 1. How to get it:
+### 1.1. Go to GitHub > User Personal Settings > Developer settings > Personal access tokens.
+### 1.2. Click "Generate new token".
+### 1.3. Set a name (DAT515-2025), Resource owner (dat515-2025) and expiration (max 1 year for UiS).
+### 1.4. Select the repository access (All repositories or atleast dat515-2025/info and dat515-2025/dat515-2025.github.io) 
+### 1.5. Permissions: 
+###      administration - read & write access to create repositories.
+###      contents - read & write access to push changes.
+###      workflows - read & write access to trigger workflows.
+###      pages - read & write access to publish GitHub Pages.
+### 1.6. Copy the generated token (github_pat_XXXXXXXXX).
+
+## 2. In your Year repo (dat515-2025):
+### 1. Go to Settings > Secrets and variables > Actions.
+### 2. Click "New repository secret".
+### 3. Name it GH_TOKEN.
+### 4. Paste your personal access token as the value (github_pat_XXXXXXXXX).
+### 5. Repository access: Select "All repositories" or atleast dat515-2025/info and dat515-2025/dat515-2025.github.io.
+### 5. Save the secret.
+
+## This token allows GitHub Actions to push changes to your target repository.
+
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - 'info/**'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source repo
+        uses: actions/checkout@v4
+
+      - name: Copy info folder
+        run: |
+          rm -rf ../info-copy
+          cp -r info ../info-copy
+
+      - name: Ensure target repo exists
+        run: |
+          if ! gh repo view dat515-2025/dat515-2025.github.io; then
+            gh repo create dat515-2025/dat515-2025.github.io --private --confirm
+          fi
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+
+      - name: Checkout target repo
+        uses: actions/checkout@v4
+        with:
+          repository: dat515-2025/dat515-2025.github.io
+          token: ${{ secrets.GH_TOKEN }}
+          path: target-repo
+
+      - name: Sync info folder to target repo
+        run: |
+          rm -rf target-repo/*
+          cp -r ../info-copy/* target-repo/
+          cd target-repo
+          git add .
+          git config user.name "${{ github.event.head_commit.author.name }}"
+          git config user.email "${{ github.event.head_commit.author.email }}"
+          git commit -m "${{ github.event.head_commit.message }}" || echo "No changes to commit"
+          git push
